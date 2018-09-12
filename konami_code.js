@@ -19,8 +19,10 @@ let index = 0;
 
 
 function triggerKeyDown(key) {
-    const keyboardEvent = new KeyboardEvent("keydown", { key });
-    document.body.dispatchEvent(keyboardEvent);
+    const keyboardEvent = document.body.addEventListener("keydown", function(key){
+      
+    });
+    ;
   }
 
 

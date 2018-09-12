@@ -13,7 +13,6 @@ const codes = [
 
 function init() {
   // your code here
-  // Keys for A, B, and C keys.
 
 // Keep track of index outside of the event handler.
 let index = 0;

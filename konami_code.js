@@ -24,7 +24,7 @@ function onKeyDownHandler(e) {
     index++;
 
     if (index === codes.length) {
-      alert("");
+      alert("Happy Konami!!");
 
       index = 0;
     }

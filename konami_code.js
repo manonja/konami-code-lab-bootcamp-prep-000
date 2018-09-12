@@ -18,7 +18,10 @@ function init() {
 let index = 0;
 
 
-
+function triggerKeyDown(key) {
+    const keyboardEvent = new KeyboardEvent("keydown", { key });
+    document.body.dispatchEvent(keyboardEvent);
+  }
 
 
 // This is the function that would be invoked by the event listener.

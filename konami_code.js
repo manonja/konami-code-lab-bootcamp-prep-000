@@ -17,6 +17,10 @@ function init() {
 // Keep track of index outside of the event handler.
 let index = 0;
 
+
+
+
+
 // This is the function that would be invoked by the event listener.
 function onKeyDownHandler(e) {
   const key = e.key;
